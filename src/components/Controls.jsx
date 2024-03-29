@@ -33,7 +33,7 @@ export default function Controls() {
     }, [isRunning, speed, dispatch])
 
   return (
-    <div>
+    <div className='controls-container'>
        <button
         disabled={!isRunning || gameOver}
         className="control-button"
