@@ -3,7 +3,7 @@ import GridSquare from './GridSquare'
 import { shapes } from '../utils/blocks'
 
 export default function GridBoard() {
-  const { grid, shape, rotation, x, y, isRunning, speed } = useSelector(state => ({
+  const { grid, shape, rotation, x, y, isRunning } = useSelector(state => ({
     grid: state.grid,
     shape: state.shape,
     rotation: state.rotation,
@@ -40,7 +40,7 @@ export default function GridBoard() {
 
   return (
     <div className='grid-board'>
-      {gridSquares}
+      {isRunning && gridSquares}
     </div>
   )
 }
