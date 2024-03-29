@@ -4,9 +4,11 @@
 
 Tetris Game with React, Redux, Webpack, Babel, Deployed on Netlify
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/98c20328-9908-4a43-b887-a1dc11b98737/deploy-status)](https://app.netlify.com/sites/tetrisbyadam/deploys)
+
 ---
 
-Live demo on Netlify [here](https://tetrisinreact.netlify.app).
+Live demo on Netlify [here](https://tetrisbyadam.netlify.app).
 
 ---
 
